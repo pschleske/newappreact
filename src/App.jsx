@@ -6,19 +6,12 @@ import Img1 from './images/IMG_5208.jpg'
 
 function App() {
 
-  const images = ['images/IMG_5208.jpg'];
+  const images = ['Img1', 'Img1', 'Img1', 'Img1'];
 
   return (
     <>
       <div>
         <Header />
-      </div>
-      <div>
-        {
-          images.map((src) => {
-            return <img key={'asdf'} src={src} />
-          })
-        }
       </div>
       <div className="card">
         <ImageCarousel images={images} />
