@@ -6,7 +6,7 @@ import Img1 from './images/IMG_5208.jpg'
 
 function App() {
 
-  const images = ['Img1', 'Img1', 'Img1', 'Img1'];
+  const images = [Img1, Img1, Img1, Img1];
 
   return (
     <>
